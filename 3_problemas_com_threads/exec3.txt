@@ -1,0 +1,2 @@
+Sim, esta é um situação possível, para contornar esse problema, poderia ser implementado uma "fila" no sistema, onde a thread de deposito teria uma prioridade para ser sempre executada primeiro, ou ate mesmo pode ser criada uma flag global no sistema, que quando a thread de deposito estiver em execução essa flag seria marcada como true, e quando a thread de deposito não estiver em execução ela seria marcada como false, a thread de atualizar só poderia ser executada caso essa flag estivesse como false  
+
